@@ -10,6 +10,9 @@ import SwiftUI
 struct AbsolutePositioningView: View {
     var body: some View {
         Text("Hello, World!")
+            .background(.red)
+            .offset(x: 100, y: 100)
+
     }
 }
 
