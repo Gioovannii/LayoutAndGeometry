@@ -7,6 +7,15 @@
 
 import SwiftUI
 
+// MARK: - Challenges
+
+extension View {
+    func Print(_ vars: Any...) -> some View {
+        for v in vars { print(v) }
+        return EmptyView()
+    }
+}
+
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
