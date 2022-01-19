@@ -17,6 +17,8 @@ extension View {
 }
 
 struct ContentView: View {
+    let colors: [Color] = [.red, .green, .blue, .orange, .pink, .purple, .yellow]
+
     var body: some View {
         Text("Hello, world!")
             .padding()
